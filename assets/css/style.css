@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +15,8 @@ body {
 
 /* headings and logo*/
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -35,12 +37,13 @@ h1, h2 {
 
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
 #menu li {
-    float:right;
+    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -68,7 +71,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -87,8 +91,9 @@ h1, h2 {
 
 @keyframes hero-zoom {
     from {
-         transform: scale(1);
+        transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -215,4 +220,26 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
