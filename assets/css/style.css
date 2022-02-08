@@ -345,3 +345,9 @@ footer {
         column-count: 2;
     }
 }
+
+@media screen and (max-width: 420px) {}
+    #center-about {
+        padding: 0 0 45px 0;
+    }
+}
